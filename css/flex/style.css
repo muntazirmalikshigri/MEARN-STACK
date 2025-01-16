@@ -1,0 +1,21 @@
+.parent{
+    width: 1000px;
+    height: 400px;
+    margin: 10px;
+    background-color: azure;
+    border: 2px solid black;
+    display: flex;
+    flex-grow: 1;
+    }
+/* #violet{
+    flex-grow: 1;
+} */
+.child{
+    height: 100px;
+    width: 100px;
+    color: white;
+    text-align: center;
+    font-size: large;
+    background-color: aqua;
+    
+}

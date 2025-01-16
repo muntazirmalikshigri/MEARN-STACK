@@ -1,0 +1,28 @@
+.container{
+    width: 600px;
+    height: 300px;
+    background-color: black;
+    display: grid;
+    grid-template-rows:1fr 1fr 1fr;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+
+}
+.item{
+   /* width: 100px;
+   height: 40px; */
+
+   background-color: greenyellow;
+   text-align: center;
+   border: 2px solid black;
+}
+#one{
+    display: grid;
+   grid-row: 1/span 3;
+   grid-column: 1/span 3 ;
+    /* grid-column-start: 1;
+    grid-column-end: 3; */
+    align-self: self-end;
+    justify-self: end;
+}
+

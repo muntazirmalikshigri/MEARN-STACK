@@ -1,0 +1,112 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  h1, h2, h3 {
+    color: #444;
+    margin-bottom: 1rem;
+    padding: 0;
+    margin: 0;
+  }
+  h1:hover{
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  section {
+    padding: 2rem;
+    margin: 1rem auto;
+    max-width: 800px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header */
+  .header {
+    text-align: center;
+    background: #c5eb08;
+    color: white;
+    padding: 2rem 0;
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  
+  .header p {
+    margin: 0.5rem 0 0;
+  }
+  #about{
+    background-color: limegreen;
+    border: 10px solid blue;
+    border-radius: 0 80px 0 80px;
+  }
+  #about>h2{
+    color: blue;
+  }
+  /* Skills Section */
+  #skills ul li {
+    background: #f9f9f9;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  #skills{
+    background-color: limegreen;
+    border: 10px solid blue;
+}
+#skills>h2{
+    color: blue;
+}
+#skills>ul>li{
+    background-color: hotpink;
+}
+  
+  /* Projects */
+  .project {
+    margin-bottom: 1.5rem;
+  }
+  
+  .project h3 {
+    margin: 0 0 0.5rem;
+  }
+  
+  .project p {
+    margin: 0.5rem 0;
+  }
+  
+  .project a {
+    display: inline-block;
+    margin-top: 0.5rem;
+    color: #0073e6;
+    text-decoration: none;
+  }
+  
+  .project a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Footer */
+  .footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #333;
+    color: white;
+    margin-top: 2rem;
+  }
+  
