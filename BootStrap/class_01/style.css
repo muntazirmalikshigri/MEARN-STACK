@@ -1,0 +1,16 @@
+h1{
+    color: red;
+}
+.navbar{
+    height: 80px;
+    margin-bottom: 10px;
+}
+.malik{
+    color: red;
+    padding: 20px;
+}
+.container-fluid{
+     height: 400px;
+    color:aqua;
+    font-size: larger;
+}
