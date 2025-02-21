@@ -1,0 +1,20 @@
+h1{
+    text-align: center;
+}
+button{
+    text-align: center;
+    align-items: center;
+    margin-left: 45%;
+}
+div{
+    
+    width: 400px;
+    height: 200px;
+    border: 2px solid black;
+    margin-left: 300px;
+    margin-top: 50px;
+    text-align: center;
+}
+body{
+    align-items: center;
+}
